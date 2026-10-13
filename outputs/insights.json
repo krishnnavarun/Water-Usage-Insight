@@ -1,0 +1,17 @@
+{
+  "row_count": 70176,
+  "date_start": "2023-01-01",
+  "date_end": "2024-12-31",
+  "mean_usage": 179.8522952152585,
+  "median_usage": 131.32,
+  "top_locality": "Lakewood",
+  "top_locality_mean_usage": 192.08428046166958,
+  "connection_type_means": {
+    "Commercial": 335.2955910343395,
+    "Residential": 105.71780028615831
+  },
+  "reported_leak_readings": 123,
+  "model_anomalies": 1404,
+  "top_anomaly_connection": "C-079",
+  "repair_connection_count": 13
+}

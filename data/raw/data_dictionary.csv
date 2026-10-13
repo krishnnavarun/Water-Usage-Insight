@@ -1,0 +1,24 @@
+file,column,data_type,meaning
+meter.csv,reading_id,string,Unique daily reading identifier
+meter.csv,date,datetime,Date of the meter reading
+meter.csv,connection_id,string,Foreign key to connections.csv
+meter.csv,usage,float,Daily water usage in liters
+meter.csv,meter_status,string,Reading status such as Normal or Estimated
+connections.csv,connection_id,string,Unique connection identifier
+connections.csv,connection_type,string,Residential or Commercial classification
+connections.csv,locality,string,Service locality
+connections.csv,household_size_band,string,Household size band for residential customers
+connections.csv,connection_start_date,datetime,Service start date
+billing.csv,billing_id,string,Unique billing identifier
+billing.csv,connection_id,string,Foreign key to connection
+billing.csv,billing_cycle,string,Monthly billing period
+billing.csv,charge,float,Monthly charge in local currency
+weather.csv,date,datetime,Weather observation date
+weather.csv,locality,string,Weather locality
+weather.csv,temperature,float,Daily average temperature in Celsius
+weather.csv,rain,float,Daily rainfall amount in mm
+maintenance.csv,maintenance_id,string,Unique maintenance record identifier
+maintenance.csv,connection_id,string,Connection associated with a maintenance event
+maintenance.csv,leak_report,integer,"1 if a leak was reported, 0 otherwise"
+maintenance.csv,report_date,datetime,Date the leak was reported
+maintenance.csv,repair_date,datetime,Date the repair was completed

@@ -1,0 +1,11 @@
+{
+  "duplicate_summary": {
+    "exact_duplicates_removed": 0,
+    "duplicate_meter_readings": 80
+  },
+  "invalid_usage_summary": {
+    "negative_usage": 25,
+    "extreme_usage": 3,
+    "missing_usage": 0
+  }
+}

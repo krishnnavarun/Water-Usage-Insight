@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+*.log
+outputs/*.pptx
+outputs/*.xlsx
+models/*.pkl
+models/*.joblib
